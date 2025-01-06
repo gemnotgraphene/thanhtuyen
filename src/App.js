@@ -5,7 +5,8 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
-// import Project1 from "./components/Projects/Project1"
+
+import Project1 from "./components/Projects/Project1"
 import Project2 from "./components/Projects/Project2"
 import Project3 from "./components/Projects/Project3"
 import Project4 from "./components/Projects/Project4"
@@ -45,7 +46,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
-          {/* <Route path="/project/project1" element={<Project1 />} /> */}
+          <Route path="/project/project1" element={<Project1 />} />
           <Route path="/project/project2" element={<Project2 />} />
           <Route path="/project/project3" element={<Project3 />} />
           <Route path="/project/project4" element={<Project4 />} />

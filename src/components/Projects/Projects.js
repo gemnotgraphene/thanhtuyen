@@ -10,6 +10,7 @@ import jfehaihan from "../../Assets/Projects/jfehaihan.jpg";
 import auroradiary from "../../Assets/Projects/auroradiary.png";
 import denso from "../../Assets/Projects/denso.jpeg";
 import wood from "../../Assets/Projects/wood.jpg";
+import machine from "../../Assets/Projects/machine.jpeg";
 
 function Projects() {
   return (
@@ -85,7 +86,7 @@ function Projects() {
               isBlog={false}
               title="K-PAPS System: Enhanced Operational and Maintenance Protocols for Metal Mold Operations"
               description="This project focuses on optimizing the Komatsu K-PAPS system for metal mold operations. It encompasses parameter display, data storage, and error diagnostics, emphasizing streamlined maintenance and enhanced usability. The initiative ensures improved precision and operational efficiency, advancing manufacturing processes while reducing downtime."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
+              
               demoLink="https://thanhtuyen.vercel.app/project/project4"
             />
           </Col>
@@ -96,7 +97,7 @@ function Projects() {
               isBlog={false}
               title="Enhancing Automotive Safety and Efficiency with Advanced DENSO Technologies"
               description="This project, in collaboration with SNU Translation Company, explores DENSO's innovative automotive technologies. It focuses on fuel-efficient systems, safety features like AEB, adaptive HMI, and emission-reducing catalysts. The project aims to enhance environmental sustainability and road safety through intelligent design, aligning with future mobility trends."
-              // ghLink="https://github.com/soumyajit4419/Plant_AI"
+              
               demoLink="https://thanhtuyen.vercel.app/project/project3"
             />
           </Col>
@@ -106,8 +107,19 @@ function Projects() {
               isBlog={false}
               title="Streamlined Technical Skill Assessments: Precision Testing for Machining and Carpentry"
               description="This project, in collaboration with Vantin Translation Company (Vietnam), delivers translated guidelines for skill assessments in machining and carpentry. It ensures accuracy in instructions, adherence to safety protocols, and standardized testing environments. The translated documents streamline evaluations, supporting the training and certification of professionals in technical industries."
-              // ghLink="https://github.com/soumyajit4419/Plant_AI"
+              
               demoLink="https://thanhtuyen.vercel.app/project/project2"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={machine}
+              isBlog={false}
+              title="Streamlined Operational Safety and Precision Guidelines for Die-Casting and Press Machinery"
+              description="A comprehensive guide outlining operational procedures, safety principles, and management protocols for die-casting and press machinery. It emphasizes equipment safety, process optimization, and quality assurance, ensuring effective machinery operation, production consistency, and compliance with industrial standards. The guide also includes detailed workflows and preventative measures."
+              
+              demoLink="https://thanhtuyen.vercel.app/project/project1"
             />
           </Col>
 
