@@ -29,7 +29,7 @@ function Home2() {
                             <br />
               <br />
               My current focus lies in advancing research in <strong className="blue">Edge Intelligence</strong> and <strong className="blue">Iot</strong> in <strong className="blue">Software Systems</strong>, where computational tasks are shifted closer to the <strong className="blue">data source</strong>, reducing reliance on centralized <strong className="blue">cloud services</strong>. By combining <strong className="blue">machine learning models</strong>, distributed systems, and <strong className="blue">energy-efficient algorithms</strong>, I aim to develop <strong className="blue">applications</strong> that are optimized for resource-constrained <strong className="blue">IoT devices</strong> IoT devices while maintaining performance and functionality.
-              As I prepare to embark on a <strong className="blue">PhD program</strong>, I am eager to contribute to <strong className="blue">cutting-edge research</strong> that bridges theory and practice.
+              I am currently exploring opportunities to apply for a <strong className="blue">PhD program</strong>, I am eager to contribute to <strong className="blue">cutting-edge research</strong> that bridges theory and practice.
              
             </p>
           </Col>
