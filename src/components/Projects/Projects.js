@@ -11,6 +11,7 @@ import auroradiary from "../../Assets/Projects/auroradiary.png";
 import denso from "../../Assets/Projects/denso.jpeg";
 import wood from "../../Assets/Projects/wood.jpg";
 import machine from "../../Assets/Projects/machine.jpeg";
+import smallprojects from "../../Assets/Projects/smallprojects.jpg";
 
 function Projects() {
   return (
@@ -18,10 +19,10 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="blue">Works </strong>
+          <strong className="blue">MY PROJECTS </strong>
         </h1>
-        <p style={{ color: "Blue" }}>
-          Here are a few projects I've worked on recently.
+        <p style={{ color: "Dark Blue" }}>
+        Below are the major projects I have worked on from the time I graduated from university in Vietnam until now.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -53,7 +54,7 @@ function Projects() {
               title="Ecosmart_myUniHackathon"
               description="EcoSmart is an app designed to promote sustainable habits among students by rewarding eco-friendly actions like recycling and conserving energy. It raises environmental awareness, tracks individual and campus-wide impacts, and supports university sustainability goals. Through gamification and real-time insights, EcoSmart fosters positive change and encourages participation in green initiatives."
               ghLink="https://github.com/gemnotgraphene/Ecosmart_myUniHackathon"
-              demoLink="https://youtu.be/4Iu-UaO39EE?si=BlJmh9rt4tKyMj4T"              
+              demoLink="https://drive.google.com/drive/folders/1k6fHBFQHPq3SNF6wPdqqMP2jnrBi_Zpa?usp=sharing"              
             />
           </Col>
 
@@ -74,8 +75,7 @@ function Projects() {
               imgPath={seeproject}
               isBlog={false}
               title="Advanced Infrastructure Reinforcement and Seismic Protection: Vietnam-Japan Collaboration on Innovative Engineering Solutions"
-              description="TCollaborating with Vantin Translation and SE Corporation (Japan), this project translated advanced technical materials on seismic protection, reinforced concrete, and innovative anchoring technologies for infrastructure safety and development in Vietnam."
-              // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              description="Collaborating with Vantin Translation and SE Corporation (Japan), this project translated advanced technical materials on seismic protection, reinforced concrete, and innovative anchoring technologies for infrastructure safety and development in Vietnam."
               demoLink="https://thanhtuyen.vercel.app/project/project6"  
             />
           </Col>
@@ -123,6 +123,16 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={smallprojects}
+              isBlog={false}
+              title="Small Projects That I Have Worked On: A Journey Through Innovation and Problem-Solving"
+              description="The projects encompass diverse fields such as healthcare, technology, environment, and manufacturing. They include developing innovative systems, enhancing sustainability, promoting health and safety, modernizing processes, and improving product quality. Each project focuses on solving specific challenges, fostering efficiency, and supporting advancements across industries, reflecting a commitment to innovation and progress."
+              
+              demoLink="https://drive.google.com/drive/folders/12A6nWshm29CCrg60JGmsGGELodc7f3X0?usp=sharing"
+            />
+          </Col>
 
         </Row>
       </Container>
