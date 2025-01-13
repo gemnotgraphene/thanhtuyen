@@ -23,9 +23,7 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight />  <strong className="blue">Learning New Technologies:</strong> to stay ahead in this ever-evolving field.
             </li>
-            {/* <li className="about-activity">
-              <ImPointRight /> Writing Tech Blog Posts
-            </li> */}
+
             <li className="about-activity">
               <ImPointRight /> <strong className="blue">Learning New Languages:</strong> to connect with people from different cultures and broaden my perspective.
             </li>

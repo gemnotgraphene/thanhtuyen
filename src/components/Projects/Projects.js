@@ -12,6 +12,8 @@ import denso from "../../Assets/Projects/denso.jpeg";
 import wood from "../../Assets/Projects/wood.jpg";
 import machine from "../../Assets/Projects/machine.jpeg";
 import smallprojects from "../../Assets/Projects/smallprojects.jpg";
+import dictionary from "../../Assets/Projects/dictionary.jpg";
+
 
 function Projects() {
   return (
@@ -25,6 +27,18 @@ function Projects() {
         Below are the major projects I have worked on from the time I graduated from university in Vietnam until now.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dictionary}
+              isBlog={false}
+              title="PET Project: GEM Dictionary"
+              description="This website is a comprehensive Japanese-English dictionary thoughtfully designed for language learners, professionals, and enthusiasts. It is built upon a rich database of terms and vocabulary meticulously curated by me as a graduate of the Hanoi University,  Faculty of Japanese Studies. The platform integrates advanced technological solutions learned during my Master of Information Technology at the University of Newcastle. It serves as a bridge for effective communication and learning between Japanese and English."
+              ghLink="https://github.com/gemnotgraphene/PET-Project-GEM-Dictionary.git"
+              demoLink="...."
+            />
+          </Col>
+          
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={wizer2}
